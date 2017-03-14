@@ -3,8 +3,42 @@
 }
 
 body {
-	background-color: #92e0e5;
 }
 
  /*layout styles*/
- 
+
+.top-nav {
+	min-height: 50px;
+	background-color: #92e0e5;
+
+}
+
+#main-nav {
+	float: right;
+
+}
+
+
+ #main-nav ul li {
+	display: inline-block;
+	list-style: none;
+ }
+
+a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+footer {
+	background-color: #3F8DA7;
+	padding: 5px 0;
+}
+
+.mobile-nav {
+	list-style: none;
+}
+
+
+footer a {
+	text-decoration: underline;
+}

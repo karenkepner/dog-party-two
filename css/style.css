@@ -49,6 +49,14 @@ body {
 	padding: 0 20px;
 }
 
+.icon-color {
+	fill: #FFF;
+}
+
+.icon-color:hover {
+	fill: #000;
+}
+
 .banner {
 	background: url(../images/park.jpg) no-repeat;
 	background-size: cover;
@@ -82,7 +90,7 @@ body {
 
 .banner a:hover,
 .dogs a:hover {
-	color: #336a7c;
+	color: #000;
 }
 
 .dogs {

@@ -2,15 +2,15 @@
 	box-sizing: border-box;
 }
 
-body {
-}
-
  /*layout styles*/
 
 .top-nav {
 	min-height: 50px;
 	background-color: #92e0e5;
+}
 
+.top-nav img {
+	margin: 5px;
 }
 
 #main-nav {
@@ -25,6 +25,7 @@ body {
 #main-nav a {
 	text-decoration: none;
 	color: #FFF;
+	padding-right: 10px;
 }
 
 footer {
@@ -38,6 +39,7 @@ footer {
 
 .banner {
 	background: url(../images/park.jpg) no-repeat;
+	background-size: cover;
 }
 
 .header-dog {
@@ -47,27 +49,37 @@ footer {
 	border-radius: 50%;
 	border: 2px solid #428EA8;
 	margin: 15px auto;
-
 }
 
 .banner h1 {
 	text-align: center;
+	margin: 0 auto;
+	padding: 15px 0;
 }
 
-
-
-.banner button {
+.banner button,
+.dogs button {
 	display: block;
-	margin: 0px auto;
+	margin: 5px auto;
+	border: 2px solid #428EA8;
 	text-decoration: none;
 }
 
-.banner button {
-	border: 2px solid #428EA8;
+.dogs {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	text-align: center;
+	padding: 10px;
 }
 
-.banner h1 {
-	margin: 0 auto;
+.dogs img {
+	display: block;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 2px solid #428EA8;
+
 }
 
 footer a {

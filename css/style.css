@@ -134,3 +134,10 @@ footer h4 {
 		padding: 10px 20px;
 	}
 }
+
+@media (max-width: 320px) {
+	#social-nav ul li {
+		display: block;
+		margin: 10px;
+	}
+}

@@ -31,10 +31,17 @@
 footer {
 	background-color: #3F8DA7;
 	padding: 5px 0;
+	text-align: center;
 }
 
-.mobile-nav {
+#social-nav {
+	display: block;
+}
+
+#social-nav ul li {
+	display: inline-block;
 	list-style: none;
+	padding-right: 10px;
 }
 
 .banner {
@@ -62,26 +69,43 @@ footer {
 	display: block;
 	margin: 5px auto;
 	border: 2px solid #428EA8;
-	text-decoration: none;
+	background-color: #FFF;
 }
 
 .dogs {
 	display: inline-block;
 	vertical-align: top;
-	width: 30%;
+	width: 33%;
 	text-align: center;
 	padding: 10px;
 }
 
 .dogs img {
 	display: block;
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
 	border-radius: 50%;
 	border: 2px solid #428EA8;
+}
 
+a {
+	text-decoration: none;
+	color: #428EA8;
 }
 
 footer a {
 	text-decoration: underline;
+	color: #FFF;
+}
+
+footer h4 {
+	color: #FFF;
+}
+
+@media (max-width: 888px) {
+	.dogs {
+		width: 100%;
+		padding: 10px 20px;
+	}
 }

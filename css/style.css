@@ -6,23 +6,28 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
-.top-nav {
-	min-height: 50px;
-	background-color: #92e0e5;
+#logo-title {
+	display: inline-block;
+	background: url('../images/dog-icon.svg') no-repeat;
+	height: 40px;
+	width: 40px;
+	margin: 5px;
 }
 
-.top-nav img {
-	margin: 5px;
+.top-nav {
+	min-height: 50px;
+	height: 50px;
+	background-color: #92e0e5;
 }
 
 #main-nav {
 	float: right;
 }
 
- #main-nav ul li {
+#main-nav ul li {
 	display: inline-block;
 	list-style: none;
- }
+}
 
 #main-nav a {
 	text-decoration: none;
